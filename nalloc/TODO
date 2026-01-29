@@ -1,0 +1,9 @@
+* nmap
+* Do not use nmap/sbrk directly for each allocation
+* Recycle/reuse memory(nree)
+* align blocks
+* Cleanup
+* leak detection
+
+
+```
