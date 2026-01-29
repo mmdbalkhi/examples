@@ -4,7 +4,7 @@ fn alphabet_position(text: &str) -> String {
     let mut ret = String::new();
     for c in text.to_lowercase().chars() {
         let pos = match ALPHABET.find(c) {
-            Some(pose) => pos + 1,
+            Some(pos) => pos + 1,
             _ => 0,
         };
         if pos == 0 {
