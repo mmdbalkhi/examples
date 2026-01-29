@@ -11,3 +11,6 @@ compile_commands.json
 # Temporary files
 *.swp
 *~
+
+# Rust
+/target
